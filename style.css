@@ -11,6 +11,46 @@ header {
     padding: 1rem;
     text-align: center;
 }
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 24px;
+	height: 64px;
+}
+.navbar-logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.navbar-links {
+	display: flex;
+	gap: 24px;
+}
+.navbar-links a {
+	color: #fff;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+.navbar-links a:hover {
+	color: #90caf9;
+}
+.navbar-cta {
+	background: #fff;
+	color: #1976d2;
+	border: none;
+	border-radius: 20px;
+	padding: 8px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.navbar-cta:hover {
+	background: #e3f2fd;
+}
+
 
 main {
     padding: 2rem;
