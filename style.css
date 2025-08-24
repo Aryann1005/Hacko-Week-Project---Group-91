@@ -38,21 +38,33 @@ header, footer {
 .navbar-links a:hover {
 	color: #90caf9;
 }
-.navbar-cta {
-	background: #fff;
-	color: #1976d2;
-	border: none;
-	border-radius: 20px;
-	padding: 8px 20px;
-	font-weight: bold;
-	cursor: pointer;
-	transition: background 0.2s;
-}
-.navbar-cta:hover {
-	background: #e3f2fd;
-}
+    
 
-
-main {
-    padding: 2rem;
+.hero-image{
+	background: url('assets/img/hero-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	
+}
+.card-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+.card {
+	background: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
+	flex: 1;
+	margin: 0 1rem;
+}
+.card h2 {
+	margin-top: 0;
 }
